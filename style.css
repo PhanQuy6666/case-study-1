@@ -64,3 +64,42 @@
 .banner-btn a:hover span {
     width: 100%;
 }
+.banner-r {
+    width: 320px;
+    height: 100%;
+
+}
+#menubtn:hover .sidenav{
+    
+}
+.sidenav{
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 75px;
+    background-color: #009688;
+    z-index: 2;
+    
+
+}
+.nav{
+    margin: 50px 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    background-color: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+}
