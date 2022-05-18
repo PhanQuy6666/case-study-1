@@ -1,18 +1,71 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+.header{
+    width: 99.9%;
+    height: 175px;
+    position: fixed;
+    top: 0px;
+    
+    
+    
+  
+    
+
+}
+#logo{
+    width: 139px;
+    height: 90px;
+    margin: 0 auto;
+    
+    
+
+
+}
+.main-m01{
+    width: 70%;
+    height: 85px ;
+}
+.main-m01 a {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 55px;
+    font-style: italic;
+}
+.main-m01 ul li {
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+    padding-left: 35px;
+    
+}
+
 .banner{
     width: 100%;
-    height: 1080px;
-    background-image: url(/image/banner.jpg);
+    height: 616px;
+    background-image: url(/image/banner1.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+    animation-name: bn;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+    margin-top: 175px;
+}
+@keyframes bn{
+    0%{background-image: url(/image/banner1.jpg);}
+    20%{background-image: url(/image/banner2.jpg);}
+    40%{background-image: url(/image/banner3.jpg);}
+    60%{background-image: url(/image/banner4.jpg);}
+    80%{background-image: url(/image/banner5.jpg);}
+    100%{background-image: url(/image/banner1.jpg);}
 }
 .icon{
     font-size: 70px;
-    color: blue;
+    color: yellow;
     position: absolute;
     top: 6%;
     left: 10%;
@@ -63,43 +116,4 @@
 }
 .banner-btn a:hover span {
     width: 100%;
-}
-.banner-r {
-    width: 320px;
-    height: 100%;
-
-}
-#menubtn:hover .sidenav{
-    
-}
-.sidenav{
-    width: 250px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 75px;
-    background-color: #009688;
-    z-index: 2;
-    
-
-}
-.nav{
-    margin: 50px 20px;
-}
-.nav a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-}
-#menubtn{
-    width: 50px;
-    height: 50px;
-    font-size: 45px;
-    background-color: #009688;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 3px;
-    z-index: 3;
 }
