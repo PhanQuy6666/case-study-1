@@ -1,0 +1,81 @@
+.main-m02{
+    width: 275px;
+    height: 66px;
+    
+}
+.main-m02 ul>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: italic;
+    display: block;
+}
+.main-m02 ul li {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+
+.main-m02 ul ul{
+   position: absolute;
+   left: -25px;
+   top: 48px;
+   
+   visibility: hidden;
+  
+   z-index: 2;
+   
+   
+}
+#my-car-02{
+    width: 250px;
+    height: 490px;
+}
+#my-car-02 li{
+    padding-left: 0px;
+    width: 230px;
+    height: 70px;
+}
+.my-car-list-02{
+    
+    
+    
+}
+.seri-02{
+    width: 25%;
+    height: 70px;
+    float: left;
+    font-size: 25px;
+    line-height: 70px;
+}
+.my-car-718-02{
+    width: 90px;
+    height: 70px;
+    
+    float: right;
+}
+.my-car-718-02 img{
+    width: 100%;
+}
+
+.main-m02 ul li ul a{
+    font-size: 18px;
+}
+
+.main-m02 ul li:hover ul{
+   visibility: visible;
+}
+#menu-01{
+    position: absolute;
+    left: -5px;
+    top: 43px;
+}
+#menu-01 li {
+    width: 160px;
+    height: 40px;
+    
+    text-align: start;
+}

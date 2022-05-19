@@ -80,6 +80,13 @@
     width: 100%;
 }
 
+.main-m01 ul li ul a{
+    font-size: 18px;
+}
+
+.main-m01 ul li:hover ul{
+   visibility: visible;
+}
 
 #service{
     width: 290px;
@@ -102,15 +109,98 @@
     
     padding-left: 5px;
 }
+.main-m02{
+    width: 70%;
+    height: 70px ;
+    
+    
+    float: left;
+    display: none;
+}
 
-.main-m01 ul li ul a{
+
+
+.main-m02{
+    width: 275px;
+    height: 66px;
+    
+}
+.main-m02 ul>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 65px;
+    font-style: italic;
+    display: block;
+}
+.main-m02 ul li {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+
+.main-m02 ul ul{
+   position: absolute;
+   left: 0;
+   top: 48px;
+   
+   visibility: hidden;
+  
+   z-index: 2;
+   
+   
+}
+#my-car-02{
+    width: 250px;
+    height: 490px;
+}
+#my-car-02 li{
+    padding-left: 0px;
+    width: 230px;
+    height: 70px;
+}
+.my-car-list-02{
+    
+    
+    
+}
+.seri-02{
+    width: 25%;
+    height: 70px;
+    float: left;
+    font-size: 25px;
+    line-height: 70px;
+}
+.my-car-718-02{
+    width: 90px;
+    height: 70px;
+    
+    float: right;
+}
+.my-car-718-02 img{
+    width: 100%;
+}
+
+.main-m02 ul li ul a{
     font-size: 18px;
 }
 
-.main-m01 ul li:hover ul{
+.main-m02 ul li:hover ul{
    visibility: visible;
 }
-
+#menu-01{
+    position: absolute;
+    left: -5px;
+    top: 43px;
+}
+#menu-01 li {
+    width: 160px;
+    height: 40px;
+    
+    text-align: start;
+}
 
 .banner{
     width: 100%;
@@ -260,7 +350,7 @@ a .img{
 
 }
 .car-grid{
-    width: 80%;
+    width: 50%;
     height: 100%;
     margin: 0 auto;
     
@@ -349,7 +439,7 @@ a .img{
 }
 .container-discover{
     width: 99.8%;
-    height: 430px;
+    height: 630px;
     
     
 }
@@ -384,4 +474,23 @@ a .img{
 }
 a{
     text-decoration: none;
+}
+
+
+@media screen and (max-width:390px) {
+    .main-m01{
+        display: none;
+    }
+    .main-m02{
+        display: block;
+        
+    }
+    .search{
+        width: 90px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        top: 105px;
+
+    }
 }
