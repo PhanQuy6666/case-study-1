@@ -485,6 +485,22 @@ a{
         display: block;
         
     }
+    .banner{
+        height: 300px;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    .banner-text{
+        padding-top: 150px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
+    
     .search{
         width: 90px;
         height: 40px;
